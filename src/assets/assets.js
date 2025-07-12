@@ -123,7 +123,7 @@ import p1 from "./pulses/p1.jpg";
 import p2 from "./pulses/p2.jpg";
 import p3 from "./pulses/p3.jpg";
 import p4 from "./pulses/p4.jpg";
-import coffe from "./cereal/coffe.jpg";
+import coffe from "./cereal/COFFE.jpg";
 import vb from "./cereal/vb.jpg";
 import tea from "./cereal/tea.jpg";
 import cfv1 from "./Canned Fruits and Vegetables/CFV1.png";
