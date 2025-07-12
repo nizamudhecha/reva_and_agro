@@ -161,22 +161,22 @@ import sp17 from "./spices/sp17.jpg";
 import sp18 from "./spices/sp18.jpg";
 import sp19 from "./spices/sp19.jpg";
 import sp20 from "./spices/sp20.jpg";
-import v1 from "./vegetables/v 1.jpg";
-import v2 from "./vegetables/v 2.jpg";
-import v3 from "./vegetables/v 3.jpg";
-import v4 from "./vegetables/v 4.jpg";
-import v5 from "./vegetables/v5.jpg";
+import v1 from "./vegetables/V 1.jpg";
+import v2 from "./vegetables/V 2.jpg";
+import v3 from "./vegetables/V 3.jpg";
+import v4 from "./vegetables/V 4.jpg";
+import v5 from "./vegetables/V5.jpg";
 import v6 from "./vegetables/v6.jpg";
-import v7 from "./vegetables/v 7.jpg";
-import v8 from "./vegetables/v 8.jpg";
-import f1 from "./FRUIT/f 1.jpg";
-import f2 from "./FRUIT/f 2.jpg";
-import f3 from "./FRUIT/f 3.jpg";
-import f4 from "./FRUIT/f 4.jpg";
-import f5 from "./FRUIT/f 5.jpg";
-import f6 from "./FRUIT/f 6.jpg";
-import f7 from "./FRUIT/f 7.jpg";
-import f8 from "./FRUIT/f 8.jpg";
+import v7 from "./vegetables/V 7.jpg";
+import v8 from "./vegetables/V 8.jpg";
+import f1 from "./FRUIT/F 1.jpg";
+import f2 from "./FRUIT/F 2.jpg";
+import f3 from "./FRUIT/F 3.jpg";
+import f4 from "./FRUIT/F 4.jpg";
+import f5 from "./FRUIT/F 5.jpg";
+import f6 from "./FRUIT/F 6.jpg";
+import f7 from "./FRUIT/F 7.jpg";
+import f8 from "./FRUIT/F 8.jpg";
 
 export const assets = {
   handicrafticon,
