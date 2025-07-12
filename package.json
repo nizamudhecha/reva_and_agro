@@ -10,7 +10,7 @@
     "lint": "eslint ."
   },
   "engines": {
-    "node": "22"
+    "node": "18"
   },
   "dependencies": {
     "@tailwindcss/vite": "^4.0.13",
