@@ -240,15 +240,15 @@ const Navbar = () => {
 
             <hr className="my-2" />
             <span className="font-semibold text-gray-700">Agro Products</span>
-            <button onClick={() => goToCollection("cereal")}>Cereal</button>
-            <button onClick={() => goToCollection("vegetables-fruits")}>
-              Vegetables & Fruits
+            <button onClick={() => goToCollection("cereals/pulses")}>
+              Cereal
             </button>
-            <button onClick={() => goToCollection("canned-fruits")}>
-              Canned Fruits
+            <button onClick={() => goToCollection("fruits")}>Fruits</button>
+            <button onClick={() => goToCollection("Vegetables")}>
+              Vegetables
             </button>
-            <button onClick={() => goToCollection("canned-vegetables")}>
-              Canned Vegetables
+            <button onClick={() => goToCollection("canned-vegetables-fruits")}>
+              Canned-Fruits-vegetables
             </button>
 
             <hr className="my-2" />

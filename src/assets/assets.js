@@ -177,6 +177,26 @@ import f5 from "./FRUIT/f 5.jpg";
 import f6 from "./FRUIT/f 6.jpg";
 import f7 from "./FRUIT/f 7.jpg";
 import f8 from "./FRUIT/f 8.jpg";
+import fur1 from "./fff/fur1.jpg";
+import fur2 from "./fff/fur2.jpg";
+import fur3 from "./fff/fur3.jpg";
+import fur4 from "./fff/fur4.jpg";
+import fur5 from "./fff/fur5.jpg";
+import fur6 from "./fff/fur6.jpg";
+import fur7 from "./fff/fur7.jpg";
+import fur8 from "./fff/fur8.jpg";
+import fur9 from "./fff/fur9.jpg";
+import fur10 from "./fff/fur10.jpg";
+import fur11 from "./fff/fur11.jpg";
+import fur12 from "./fff/fur12.jpg";
+import fur13 from "./fff/fur13.jpg";
+import fur14 from "./fff/fur14.jpg";
+import fur15 from "./fff/fur15.jpg";
+import fur16 from "./fff/fur16.jpg";
+import fur17 from "./fff/fur17.jpg";
+import fur18 from "./fff/fur18.jpg";
+import fur19 from "./fff/fur19.jpg";
+import fur20 from "./fff/fur20.jpg";
 
 export const assets = {
   handicrafticon,
@@ -343,6 +363,26 @@ export const assets = {
   f6,
   f7,
   f8,
+  fur1,
+  fur2,
+  fur3,
+  fur4,
+  fur5,
+  fur6,
+  fur7,
+  fur8,
+  fur9,
+  fur10,
+  fur11,
+  fur12,
+  fur13,
+  fur14,
+  fur15,
+  fur16,
+  fur17,
+  fur18,
+  fur19,
+  fur20,
 };
 export const products = [
   // ✅ Fresh and Frozen SEA
@@ -1100,30 +1140,124 @@ export const products = [
   // ✅ Furniture Products (No subCategory or waterType needed)
   {
     _id: "furn001",
-    name: "Sheesham Wood Dining Table",
-    description: "Premium 6-seater dining table made of solid wood.",
+    name: "RAF_FUR_001",
     subCategory: "furniture",
-
-    image: [p_img10],
-    date: 1716751000001,
+    image: [fur1],
   },
   {
     _id: "furn002",
-    name: "Modern Sofa Set",
-    description: "Comfortable sofa set with premium cushions.",
+    name: "RAF_FUR_002",
     subCategory: "furniture",
-    image: [p_img10],
-    date: 1716752000002,
+    image: [fur2],
   },
   {
     _id: "furn003",
-    name: "Office Work Desk",
-    description: "Minimalist desk for corporate and home use.",
+    name: "RAF_FUR_003",
     subCategory: "furniture",
-    image: [p_img10],
-    date: 1716753000003,
+    image: [fur3],
   },
-
+  {
+    _id: "furn004",
+    name: "RAF_FUR_004",
+    subCategory: "furniture",
+    image: [fur4],
+  },
+  {
+    _id: "furn005",
+    name: "RAF_FUR_005",
+    subCategory: "furniture",
+    image: [fur5],
+  },
+  {
+    _id: "furn006",
+    name: "RAF_FUR_006",
+    subCategory: "furniture",
+    image: [fur6],
+  },
+  {
+    _id: "furn007",
+    name: "RAF_FUR_007",
+    subCategory: "furniture",
+    image: [fur7],
+  },
+  {
+    _id: "furn008",
+    name: "RAF_FUR_008",
+    subCategory: "furniture",
+    image: [fur8],
+  },
+  {
+    _id: "furn009",
+    name: "RAF_FUR_009",
+    subCategory: "furniture",
+    image: [fur9],
+  },
+  {
+    _id: "furn010",
+    name: "RAF_FUR_010",
+    subCategory: "furniture",
+    image: [fur10],
+  },
+  {
+    _id: "furn011",
+    name: "RAF_FUR_011",
+    subCategory: "furniture",
+    image: [fur11],
+  },
+  {
+    _id: "furn012",
+    name: "RAF_FUR_012",
+    subCategory: "furniture",
+    image: [fur12],
+  },
+  {
+    _id: "furn013",
+    name: "RAF_FUR_013",
+    subCategory: "furniture",
+    image: [fur13],
+  },
+  {
+    _id: "furn014",
+    name: "RAF_FUR_014",
+    subCategory: "furniture",
+    image: [fur14],
+  },
+  {
+    _id: "furn015",
+    name: "RAF_FUR_015",
+    subCategory: "furniture",
+    image: [fur15],
+  },
+  {
+    _id: "furn016",
+    name: "RAF_FUR_016",
+    subCategory: "furniture",
+    image: [fur16],
+  },
+  {
+    _id: "furn017",
+    name: "RAF_FUR_017",
+    subCategory: "furniture",
+    image: [fur17],
+  },
+  {
+    _id: "furn018",
+    name: "RAF_FUR_018",
+    subCategory: "furniture",
+    image: [fur18],
+  },
+  {
+    _id: "furn019",
+    name: "RAF_FUR_019",
+    subCategory: "furniture",
+    image: [fur19],
+  },
+  {
+    _id: "furn020",
+    name: "RAF_FUR_020",
+    subCategory: "furniture",
+    image: [fur20],
+  },
   // ✅ Handicraft Products (No subCategory or waterType needed)
   {
     _id: "handi001",
