@@ -1,17 +1,3 @@
-import p_img1 from "./p_img1.png";
-import p_img2 from "./p_img2.png";
-import p_img3 from "./p_img3.png";
-import p_img4 from "./p_img4.png";
-import p_img5 from "./p_img5.png";
-import p_img6 from "./p_img6.png";
-import p_img7 from "./p_img7.png";
-import p_img8 from "./p_img8.png";
-import p_img9 from "./p_img9.png";
-import p_img10 from "./p_img10.png";
-import p_img11 from "./p_img11.png";
-import p_img12 from "./p_img12.png";
-import p_img13 from "./p_img13.png";
-
 import logo from "./logo.png";
 import hero_img from "./hero_img.png";
 import cart_icon from "./cart_icon.png";
@@ -197,6 +183,9 @@ import fur17 from "./fff/fur17.jpg";
 import fur18 from "./fff/fur18.jpg";
 import fur19 from "./fff/fur19.jpg";
 import fur20 from "./fff/fur20.jpg";
+import kha from "./maize/khakhra.jpg";
+import egg from "./FF/egg.jpg";
+import meet from "./FF/meet.jpg";
 
 export const assets = {
   handicrafticon,
@@ -383,6 +372,9 @@ export const assets = {
   fur18,
   fur19,
   fur20,
+  kha,
+  egg,
+  meet,
 };
 export const products = [
   // ✅ Fresh and Frozen SEA
@@ -512,6 +504,7 @@ export const products = [
     subCategory: "fresh-frozen",
     waterType: "sea",
   },
+
   // ✅ Fresh and Frozen FRESH
 
   {
@@ -537,6 +530,18 @@ export const products = [
     image: [fff5],
     subCategory: "fresh-frozen",
     waterType: "fresh",
+  },
+  {
+    _id: "ff18",
+    name: "EGG AND DAIRY PRODUCT",
+    image: [egg],
+    subCategory: "fresh-frozen",
+  },
+  {
+    _id: "ff18",
+    name: "MEET",
+    image: [meet],
+    subCategory: "fresh-frozen",
   },
   // ✅ Dry fish
   {
@@ -820,6 +825,12 @@ export const products = [
     _id: "OTHER4",
     name: "TEA",
     image: [tea],
+    subCategory: "cereals/pulses",
+  },
+  {
+    _id: "OTHER4",
+    name: "KHAKHRA",
+    image: [kha],
     subCategory: "cereals/pulses",
   },
 
