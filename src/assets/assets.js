@@ -1044,12 +1044,7 @@ export const products = [
     image: [cfv14],
     subCategory: "canned-vegetables-fruits",
   },
-  {
-    _id: "cfv15",
-    name: "",
-    image: [cfv15],
-    subCategory: "canned-vegetables-fruits",
-  },
+  
 
   //vegetable
 
@@ -1085,7 +1080,7 @@ export const products = [
   },
   {
     _id: "v6",
-    name: "DRUM STICK",
+    name: "PEAS",
     image: [v6],
     subCategory: "Vegetables",
   },
