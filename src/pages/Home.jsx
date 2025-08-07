@@ -1,5 +1,5 @@
 import React from "react";
-import hero from "../components/Hero";
+import Hero from "../components/Hero";
 
 import OurPolicy from "../components/OurPolicy";
 import NewsLetterBox from "../components/NewsLetterBox";
@@ -7,7 +7,7 @@ import NewsLetterBox from "../components/NewsLetterBox";
 const home = () => {
   return (
     <div>
-      <hero />
+      <Hero />
 
       <NewsLetterBox />
       <OurPolicy />
