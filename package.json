@@ -9,9 +9,9 @@
     "preview": "vite preview",
     "lint": "eslint ."
   },
-  "engines": {
-    "node": "18"
-  },
+"engines": {
+  "node": ">=20.0.0"
+}
   "dependencies": {
     "@tailwindcss/vite": "^4.0.13",
     "react": "^19.0.0",
