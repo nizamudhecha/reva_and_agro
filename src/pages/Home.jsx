@@ -1,5 +1,5 @@
 import React from "react";
-import hero from "../components/hero";
+import hero from "../components/Hero";
 
 import OurPolicy from "../components/OurPolicy";
 import NewsLetterBox from "../components/NewsLetterBox";
