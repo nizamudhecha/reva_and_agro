@@ -808,7 +808,7 @@ export const products = [
   // other cereals/pulses
   {
     _id: "OTHER1",
-    name: "CHINA SEEDS",
+    name: "CHIA SEEDS",
     image: [china_seeds],
     subCategory: "cereals/pulses",
   },
