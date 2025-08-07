@@ -542,7 +542,7 @@ export const products = [
   },
   {
     _id: "ff18",
-    name: "MEET",
+    name: "MEAT",
     image: [meet],
     subCategory: "fresh-frozen",
   },
@@ -814,7 +814,7 @@ export const products = [
   },
   {
     _id: "OTHER2",
-    name: "COFFE",
+    name: "COFFEE",
     image: [coffe],
     subCategory: "cereals/pulses",
   },
