@@ -187,6 +187,7 @@ import fur20 from "./fff/fur20.jpg";
 import kha from "./maize/khakhra.jpg";
 import egg from "./FF/egg.jpg";
 import meet from "./FF/meet.jpg";
+import vibe from "./vibe.jpg";
 
 export const assets = {
   handicrafticon,
@@ -376,6 +377,7 @@ export const assets = {
   kha,
   egg,
   meet,
+  vibe,
 };
 export const products = [
   // ✅ Fresh and Frozen SEA
