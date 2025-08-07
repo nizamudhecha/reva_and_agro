@@ -14,7 +14,7 @@ const Footer = () => {
             GOOD NATURE FOR YOU FROM REVA
           </p>
           <p className="py-3 text-sm ">
-            Copyright 2025@ ravaagroandfisheries.com - All Right Reserved.
+            Copyright 2025@ revaagroandfisheries.com - All Right Reserved.
           </p>
         </div>
 
