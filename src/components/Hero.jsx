@@ -50,6 +50,11 @@ const Hero = () => {
       title: "Artisan Touch",
       subtitle: "Handmade with Heart & Heritage",
     },
+      {
+      image: assets.vibe,
+      title: "Made in India to the world.",
+      subtitle: "Clean Care Confidence.",
+    },
   ];
 
   return (
