@@ -42,7 +42,7 @@ const Navbar = () => {
   }, []);
 
   return (
-    <div className="relative bg-white shadow-sm">
+    <div className="relative bg-white ">
       <div className="flex items-center justify-between py-5 font-medium px-4 max-w-[1400px] mx-auto">
         {/* Logo */}
         <Link to="/">
