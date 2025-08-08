@@ -5,7 +5,10 @@ import Documents from "../components/documents";
 const Contact = () => {
   return (
     <div>
-      <Documents />
+      {/* Add an id so hash link can scroll here */}
+      <div id="documents">
+        <Documents />
+      </div>
       <NewsLetterBox />
     </div>
   );
