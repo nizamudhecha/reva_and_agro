@@ -42,15 +42,19 @@ const Navbar = () => {
   }, []);
 
   return (
-    <div className="relative">
-      <div className="flex items-center justify-between py-5 font-medium px-4">
+    <div className="relative bg-white shadow-sm">
+      <div className="flex items-center justify-between py-5 font-medium px-4 max-w-[1400px] mx-auto">
         {/* Logo */}
         <Link to="/">
-          <img src={assets.logo} className="w-50" alt="Logo" />
+          <img
+            src={assets.logo}
+            className="w-32 md:w-40 lg:w-48 max-w-full"
+            alt="Logo"
+          />
         </Link>
 
         {/* Desktop Nav */}
-        <div className="hidden sm:flex ml-160 gap-5 text-sm text-gray-700">
+        <div className="hidden lg:flex gap-8 text-sm text-gray-700 items-center">
           <NavLink to="/">HOME</NavLink>
           <NavLink to="/about">ABOUT US</NavLink>
 
@@ -69,7 +73,7 @@ const Navbar = () => {
             {menuOpen && (
               <div
                 ref={menuRef}
-                className="absolute top-8 left-[-70px] bg-white shadow-lg rounded-md py-2 px-4 text-sm z-20 min-w-[200px] space-y-2">
+                className="absolute top-8 left-0 bg-white shadow-lg rounded-md py-2 px-4 text-sm z-20 min-w-[200px] space-y-2">
                 {/* Fish submenu */}
                 <div className="relative">
                   <button
@@ -121,7 +125,7 @@ const Navbar = () => {
                     <div className="flex items-center gap-2">
                       <img
                         src={assets.agroicon}
-                        alt="Fish"
+                        alt="Agro"
                         className="w-4 h-4"
                       />
                       <span>Agro Products</span>
@@ -150,9 +154,8 @@ const Navbar = () => {
                           goToCollection("canned-vegetables-fruits")
                         }
                         className="hover:text-blue-600 w-full text-left">
-                        Canned-Fruits-vegetables
+                        Canned Fruits/Vegetables
                       </button>
-
                       <button
                         onClick={() => goToCollection("Spice")}
                         className="hover:text-blue-600 w-full text-left">
@@ -164,27 +167,23 @@ const Navbar = () => {
 
                 <button
                   onClick={() => goToCollection("furniture")}
-                  className="hover:text-blue-600 w-full text-left">
-                  <div className="flex items-center gap-2">
-                    <img
-                      src={assets.furnitureicon}
-                      alt="Fish"
-                      className="w-4 h-4"
-                    />
-                    <span>Furniture</span>
-                  </div>
+                  className="hover:text-blue-600 w-full text-left flex items-center gap-2">
+                  <img
+                    src={assets.furnitureicon}
+                    alt="Furniture"
+                    className="w-4 h-4"
+                  />
+                  <span>Furniture</span>
                 </button>
                 <button
                   onClick={() => goToCollection("handicraft")}
-                  className="hover:text-blue-600 w-full text-left">
-                  <div className="flex items-center gap-2">
-                    <img
-                      src={assets.handicrafticon}
-                      alt="Fish"
-                      className="w-4 h-4"
-                    />
-                    <span>Handicraft</span>
-                  </div>
+                  className="hover:text-blue-600 w-full text-left flex items-center gap-2">
+                  <img
+                    src={assets.handicrafticon}
+                    alt="Handicraft"
+                    className="w-4 h-4"
+                  />
+                  <span>Handicraft</span>
                 </button>
               </div>
             )}
@@ -194,24 +193,24 @@ const Navbar = () => {
         </div>
 
         {/* Right Icons */}
-        <div className="flex items-center gap-6">
+        <div className="flex items-center gap-6 lg:hidden">
           <img
             onClick={() => setVisible(!visible)}
             src={assets.menu_icon}
-            className="w-5 cursor-pointer sm:hidden"
+            className="w-6 cursor-pointer"
             alt="Menu"
           />
         </div>
       </div>
 
-      {/* Mobile Menu (Full Screen) */}
+      {/* Mobile Menu */}
       {visible && (
-        <div className="fixed inset-0 z-50 flex sm:hidden">
+        <div className="fixed inset-0 z-50 flex lg:hidden">
           <div
             className="absolute inset-0 bg-black bg-opacity-50"
             onClick={closeMenus}></div>
 
-          <div className="relative w-full h-full bg-white shadow-xl p-6 flex flex-col items-start gap-1 text-sm text-left transform transition-transform duration-300">
+          <div className="relative w-72 h-full bg-white shadow-xl p-6 flex flex-col items-start gap-3 text-sm text-left transform transition-transform duration-300">
             <button
               className="self-end text-xl font-bold text-gray-600 mb-4"
               onClick={closeMenus}>
@@ -241,14 +240,14 @@ const Navbar = () => {
             <hr className="my-2" />
             <span className="font-semibold text-gray-700">Agro Products</span>
             <button onClick={() => goToCollection("cereals/pulses")}>
-              Cereal
+              Cereals/Pulses
             </button>
             <button onClick={() => goToCollection("fruits")}>Fruits</button>
             <button onClick={() => goToCollection("Vegetables")}>
               Vegetables
             </button>
             <button onClick={() => goToCollection("canned-vegetables-fruits")}>
-              Canned-Fruits-vegetables
+              Canned Fruits/Vegetables
             </button>
 
             <hr className="my-2" />
